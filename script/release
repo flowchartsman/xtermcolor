@@ -2,10 +2,10 @@
 PROJDIR=$(cd `dirname $0`/.. && pwd)
 
 TAG=${1}
-USER="tomnomnom"
+USER="flowchartsman"
 REPO="xtermcolor"
 
-cd ${PROJDIR} && go build github.com/tomnomnom/xtermcolor/cmd/xtermcolor
+cd ${PROJDIR} && go build github.com/flowchartsman/xtermcolor/cmd/xtermcolor
 
 github-release release \
     --user ${USER} \

@@ -7,7 +7,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/tomnomnom/xtermcolor"
+	"github.com/flowchartsman/xtermcolor"
 )
 
 const (

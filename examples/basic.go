@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"image/color"
 
-	"github.com/tomnomnom/xtermcolor"
+	"github.com/flowchartsman/xtermcolor"
 )
 
 func main() {

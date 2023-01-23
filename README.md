@@ -5,10 +5,9 @@ Find the closest xterm color to anything implementing [color.Color](https://gola
 Provides a [color.Palette](https://golang.org/pkg/image/color/#Palette) as `xtermcolor.Colors` so you can use `.Convert` and `.Index`,
 but also provides convenience functions to get the index as a `uint8` from a `color.Color`, a 32 bit integer, or a 24 bit hex string.
 
-[![Build Status](https://travis-ci.org/tomnomnom/xtermcolor.svg?branch=master)](https://travis-ci.org/tomnomnom/xtermcolor)
+Fork of [tomnomnom/xtermcolor](https://github.com/tomnomnom/xtermcolor) so that it can be a module.
 
-
-Full documentation can be found on [GoDoc](https://godoc.org/github.com/tomnomnom/xtermcolor).
+Full documentation can be found on [GoDoc](https://pkg.go.dev/github.com/flowchartsman/xtermcolor).
 
 Basic usage (examples/basic.go):
 
@@ -19,7 +18,7 @@ import (
 	"fmt"
 	"image/color"
 
-	"github.com/tomnomnom/xtermcolor"
+	"github.com/flowchartsman/xtermcolor"
 )
 
 func main() {
@@ -50,10 +49,10 @@ func main() {
 There's also an `xtermcolor` command you can install by running:
 
 ```
-▶ go get github.com/tomnomnom/xtermcolor/cmd/xtermcolor
+▶ go get github.com/flowchartsman/xtermcolor/cmd/xtermcolor
 ```
 
-Or you can download a binary from the [releases page](https://github.com/tomnomnom/xtermcolor/releases).
+Or you can download a binary from the [releases page](https://github.com/flowchartsman/xtermcolor/releases).
 
 The command returns the color code for a 24 bit hex number:
 
